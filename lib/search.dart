@@ -74,12 +74,12 @@ class _Search extends State<Search> {
                     fillColor: Color(0xFF172C5E)),
               )),
           Container(height: 18,),
-          recBox(title: "Как правильно открывать бизнес ?", score: 746,),
-          recBox(title: "Кредиты для бизнеса.", score: 342,),
-          recBox(title: "Лайфхаки для бизнеса.", score: 243,),
-          recBox(title: "Мир для всех!", score: 83,),
-          recBox(title: "Как работать в 1C?", score: 0,),
-          recBox(title: "Как следить за работниками?", score: -20,),
+          recBox(title: "How to open business ?", score: 746,),
+          recBox(title: "All you need to know for open business.", score: 342,),
+          recBox(title: "Lifehacks with working employeement.", score: 243,),
+          recBox(title: "Peace for everybody!", score: 83,),
+          recBox(title: "How to work with 1C?", score: 0,),
+          recBox(title: "How to work with clients?", score: -20,),
 
         ],
       ),
@@ -100,7 +100,7 @@ class _Search extends State<Search> {
               Icons.home,
               color: Colors.grey,
             ),
-            title: Text('Дом.стр',
+            title: Text('Home',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -111,7 +111,7 @@ class _Search extends State<Search> {
               Icons.flash_on,
               color: Colors.grey,
             ),
-            title: Text('Платежи',
+            title: Text('Payments',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -122,7 +122,7 @@ class _Search extends State<Search> {
               Icons.search,
               color: Colors.black,
             ),
-            title: Text('Поиск',
+            title: Text('Search',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.black,
@@ -133,7 +133,7 @@ class _Search extends State<Search> {
               Icons.business_center,
               color: Colors.grey,
             ),
-            title: Text('Бизнес',
+            title: Text('Business',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -144,7 +144,7 @@ class _Search extends State<Search> {
               Icons.more_horiz,
               color: Colors.grey,
             ),
-            title: Text('Больше',
+            title: Text('More',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,

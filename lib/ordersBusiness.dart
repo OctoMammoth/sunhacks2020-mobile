@@ -72,32 +72,32 @@ class _OrdersBusiness extends State<OrdersBusiness> {
           ),
           OrderAdd(
             image: 'images/+.png',
-            title: "Создать запрос",
+            title: "Create order",
           ),
           Container(
             height: 18,
           ),
           OrderBox(
             icon: Icons.style,
-            title: "Шашлык 2кг",
+            title: "Meat 2kg",
             orders: 8,
           ),
           OrderBox(
             icon: Icons.payment,
-            title: "Курица 10кг для свадьбы",
+            title: "Chicken 10kg",
           ),
           OrderBox(
             icon: Icons.style,
-            title: 'Комплект "САМЫЙ СОК"',
+            title: 'Combo "Fresh"',
             orders: 3,
           ),
           OrderBox(
             icon: Icons.markunread_mailbox,
-            title: "Шашлык 1 кг, Оплачено",
+            title: "Meat 1kg, Payed",
           ),
           OrderBox(
             icon: Icons.payment,
-            title: "Ребра свиные, нужно оплатить",
+            title: "Pork, need pay",
           ),
         ],
       ),

@@ -76,7 +76,7 @@ class _Telegram extends State<Telegram> {
           child: Padding(
             padding: const EdgeInsets.only(top: 120),
             child: Text(
-              "Вы успешно \nавторизованы",
+              "You are successfully \nlogged in",
               style: TextStyle(
                   color: Color(0xFF203962),
                   fontSize: 20,

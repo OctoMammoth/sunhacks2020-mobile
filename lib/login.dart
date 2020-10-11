@@ -54,7 +54,7 @@ class _Login extends State<Login> {
                           width: 80,
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            'Войти',
+                            'Login',
                             style: TextStyle(
                                 fontWeight: FontWeight.w600,
                                 fontSize: 16),
@@ -72,7 +72,7 @@ class _Login extends State<Login> {
                           width: null,
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            'Войти как владелец бизнеса',
+                            'Basic Login',
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 16,color: Color(0xFF3367EF),),

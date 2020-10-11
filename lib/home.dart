@@ -89,7 +89,7 @@ class _Home extends State<Home> {
                                   child: Padding(
                                       padding:
                                           EdgeInsets.only(left: 12.0, top: 15),
-                                      child: Text('Alert card    for you',
+                                      child: Text('Alert card for you',
                                           style: TextStyle(
                                               color: Theme.of(context)
                                                   .backgroundColor,
@@ -126,7 +126,7 @@ class _Home extends State<Home> {
                     child: Padding(
                         padding: EdgeInsets.only(left: 20, top: 15),
                         child: Text(
-                          "Для вас",
+                          "For you",
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.w700,
@@ -155,7 +155,7 @@ class _Home extends State<Home> {
                         Container(
                             width: 80,
                             child: Text(
-                              "Рекомендации            ",
+                              "Guidance ",
                               style: TextStyle(
                                 fontSize: 11,
                                 color: Colors.white,
@@ -180,7 +180,7 @@ class _Home extends State<Home> {
                         Container(
                             width: 80,
                             child: Text(
-                              "Предложения             ",
+                              "Orders",
                               style: TextStyle(
                                 fontSize: 11,
                                 color: Colors.white,
@@ -205,7 +205,7 @@ class _Home extends State<Home> {
                         Container(
                             width: 80,
                             child: Text(
-                              "Специально для вас      ",
+                              "Specials",
                               style: TextStyle(
                                 fontSize: 11,
                                 color: Colors.white,
@@ -230,7 +230,7 @@ class _Home extends State<Home> {
                         Container(
                             width: 80,
                             child: Text(
-                              "Что-то                  ",
+                              "Something",
                               style: TextStyle(
                                 fontSize: 11,
                                 color: Colors.white,
@@ -264,7 +264,7 @@ class _Home extends State<Home> {
                     ),
                     child: Column( children: [ Row(
                       children: [
-                        Padding(padding: EdgeInsets.only(left: 20, top: 30), child: Text("Другое", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),)),
+                        Padding(padding: EdgeInsets.only(left: 20, top: 30), child: Text("Other", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),)),
                       ],
                     )],),
                   ))),
@@ -295,23 +295,23 @@ class _Home extends State<Home> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.black,),
-            title: Text('Дом.стр', style: TextStyle(fontSize: 12 ,color : Colors.black,)),
+            title: Text('Home', style: TextStyle(fontSize: 12 ,color : Colors.black,)),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.flash_on , color: Colors.grey,),
-            title: Text('Платежи', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
+            title: Text('Payments', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search, color: Colors.grey,),
-            title: Text('Поиск', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
+            title: Text('Search', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business_center, color: Colors.grey,),
-            title: Text('Бизнес', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
+            title: Text('Business', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.more_horiz, color: Colors.grey,),
-            title: Text('Больше', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
+            title: Text('More', style : TextStyle(fontSize: 12 ,color : Colors.grey,)),
           ),
         ],
       ),

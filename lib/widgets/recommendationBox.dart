@@ -21,7 +21,7 @@ class recBox extends StatelessWidget {
     return Container(
       height: 70,
         child: Column(children: [
-          Container(height: 8),
+          Container(height: 3),
       Align(
           alignment: Alignment(-1, 1),
           child: Padding(
@@ -43,7 +43,7 @@ class recBox extends StatelessWidget {
                     fontWeight: FontWeight.w700,
                     fontSize: 18)),
           )),
-          Container(height: 8),
+          Container(height: 3),
           Padding ( padding: EdgeInsets.only(left: 20, right: 20) , child: Container(height: 1, color: Color(0xFF162845))),
 
     ]));

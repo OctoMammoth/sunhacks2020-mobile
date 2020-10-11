@@ -68,8 +68,8 @@ class _Team extends State<Team> {
             ),
           ),
           Container(height: 12),
-          menuBox(image: 'images/bills.png', title: "Задачи", onTap: () => {Navigator.pushNamed(context, '/ordersBusiness')},),
-          menuBox(image: 'images/orders.png', title: "Доставка"),
+          menuBox(image: 'images/bills.png', title: "Tasks", onTap: () => {Navigator.pushNamed(context, '/ordersBusiness')},),
+          menuBox(image: 'images/orders.png', title: "Deliviry"),
         ],
       ),
     );

@@ -58,12 +58,12 @@ class _More extends State<More> {
             height: 32,
           ),
 
-          menuBox(image: 'images/teamates.png', title: "О нас",),
-          menuBox(image: 'images/notifications.png', title: "Уведомления",),
-          menuBox(image: 'images/lock.png', title: "Криптинг",),
+          menuBox(image: 'images/teamates.png', title: "About us",),
+          menuBox(image: 'images/notifications.png', title: "Notifications",),
+          menuBox(image: 'images/lock.png', title: "Crypting",),
           menuBox(image: 'images/bills.png', title: "Telegram Bot", onTap: () => {Navigator.pushNamed(context, '/telegram')},),
-          menuBox(image: 'images/settings.png', title: "Найстройки",onTap: () => {Navigator.pushNamed(context, '/')}),
-          menuBox(image: 'images/numbers.png', title: "Контакты",),
+          menuBox(image: 'images/settings.png', title: "Settings",onTap: () => {Navigator.pushNamed(context, '/')}),
+          menuBox(image: 'images/numbers.png', title: "Contacts",),
 
         ],
       ),
@@ -84,7 +84,7 @@ class _More extends State<More> {
               Icons.home,
               color: Colors.grey,
             ),
-            title: Text('Дом.стр',
+            title: Text('Home',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -95,7 +95,7 @@ class _More extends State<More> {
               Icons.flash_on,
               color: Colors.grey,
             ),
-            title: Text('Платежи',
+            title: Text('Payments',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -106,7 +106,7 @@ class _More extends State<More> {
               Icons.search,
               color: Colors.grey,
             ),
-            title: Text('Поиск',
+            title: Text('Search',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -117,7 +117,7 @@ class _More extends State<More> {
               Icons.business_center,
               color: Colors.grey,
             ),
-            title: Text('Бизнес',
+            title: Text('Business',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -128,7 +128,7 @@ class _More extends State<More> {
               Icons.more_horiz,
               color: Colors.black,
             ),
-            title: Text('Больше',
+            title: Text('More',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.black,

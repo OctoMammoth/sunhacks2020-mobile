@@ -77,9 +77,9 @@ class _Payments extends State<Payments> {
            Stack(
         children: [
           Container(height: 1, width: 1000,),
-          Positioned(left: 36, top: 60, child: Text("Ваш счет : ${this.balance} руб.", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700),)),
-          Positioned(left: 45, top: 90, child: Text("Вывод средств >", style: TextStyle(color: Colors.blue, fontSize: 16, fontWeight: FontWeight.w500),)),
-          Positioned(left: 36, top: 140, child: Text("Платежи:", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700),)),
+          Positioned(left: 36, top: 60, child: Text("Your account : ${this.balance} руб.", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700),)),
+          Positioned(left: 45, top: 90, child: Text("Withdraw funds >", style: TextStyle(color: Colors.blue, fontSize: 16, fontWeight: FontWeight.w500),)),
+          Positioned(left: 36, top: 140, child: Text("Payments:", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700),)),
 //          Center( child: Container(child: Row (children:[ Align( alignment: Alignment.center, child: Image.asset('images/empty.png', scale: 0.75,))])))
           Align(alignment: Alignment(0,0.15) ,child: Image.asset('images/empty.png', scale: 0.75,))
         ],
@@ -100,7 +100,7 @@ class _Payments extends State<Payments> {
               Icons.home,
               color: Colors.grey,
             ),
-            title: Text('Дом.стр',
+            title: Text('Home',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -111,7 +111,7 @@ class _Payments extends State<Payments> {
               Icons.flash_on,
               color: Colors.black,
             ),
-            title: Text('Платежи',
+            title: Text('Payments',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.black,
@@ -122,7 +122,7 @@ class _Payments extends State<Payments> {
               Icons.search,
               color: Colors.grey,
             ),
-            title: Text('Поиск',
+            title: Text('Search',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -133,7 +133,7 @@ class _Payments extends State<Payments> {
               Icons.business_center,
               color: Colors.grey,
             ),
-            title: Text('Бизнес',
+            title: Text('Business',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -144,7 +144,7 @@ class _Payments extends State<Payments> {
               Icons.more_horiz,
               color: Colors.grey,
             ),
-            title: Text('Больше',
+            title: Text('More',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,

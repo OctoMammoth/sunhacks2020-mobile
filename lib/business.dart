@@ -61,31 +61,31 @@ class _Business extends State<Business> {
           ),
           menuBox(
             image: 'images/orders.png',
-            title: "Заказы",
+            title: "Orders",
             onTap: () => {Navigator.pushNamed(context, '/ordersBusiness')},
           ),
           menuBox(
             image: 'images/teamates.png',
-            title: "Сотрудники",
+            title: "Employee",
             onTap: () => {Navigator.pushNamed(context, "/team")},
           ),
           menuBox(
               image: 'images/marketing.png',
-              title: "Умная булгахтерия (LITE)",
+              title: "Smart accounting (LITE)",
               onTap: () => {
                 someFunction()
               }),
           menuBox(
             image: 'images/bills.png',
-            title: "Квитанции",
+            title: "Receipts",
           ),
           menuBox(
             image: 'images/managment.png',
-            title: "Управление услугами",
+            title: "Service management",
           ),
           menuBox(
             image: 'images/lock.png',
-            title: "Безопасность",
+            title: "Security",
           ),
         ],
       ),
@@ -106,7 +106,7 @@ class _Business extends State<Business> {
               Icons.home,
               color: Colors.grey,
             ),
-            title: Text('Дом.стр',
+            title: Text('Home',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -117,7 +117,7 @@ class _Business extends State<Business> {
               Icons.flash_on,
               color: Colors.grey,
             ),
-            title: Text('Платежи',
+            title: Text('Payments',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -128,7 +128,7 @@ class _Business extends State<Business> {
               Icons.search,
               color: Colors.grey,
             ),
-            title: Text('Поиск',
+            title: Text('Search',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -139,7 +139,7 @@ class _Business extends State<Business> {
               Icons.business_center,
               color: Colors.black,
             ),
-            title: Text('Бизнес',
+            title: Text('Business',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.black,
@@ -150,7 +150,7 @@ class _Business extends State<Business> {
               Icons.more_horiz,
               color: Colors.grey,
             ),
-            title: Text('Больше',
+            title: Text('More',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,

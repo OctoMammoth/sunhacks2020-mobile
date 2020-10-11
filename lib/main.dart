@@ -71,7 +71,9 @@ class _MyHomePageState extends State<MyHomePage> {
   _LoadFromBack() async {
     // Navigator.pushReplacementNamed(context, '/home');
     final http.Response response = await http.post(
-      Config.url+'login',
+//        Config.url+'login',
+//      new Uri.http('192.168.0.14:3000', '/login'),
+      'https://c7d3a11db97e.ngrok.io/login',
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
@@ -118,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       controller: myController,
                       decoration: InputDecoration(
                           border: _bigger ? InputBorder.none : border,
-                          hintText: 'Мобильный телефон или почта'),
+                          hintText: 'Login'),
                     ),
                     Container(
                       height: 30,
@@ -126,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     TextField(
                       decoration: InputDecoration(
                           border: _bigger ? InputBorder.none : border,
-                          hintText: 'Пароль'),
+                          hintText: 'Password'),
                     ),
                     Container(
                       height: 60,
@@ -143,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           width: 80,
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            'Войти',
+                            'Login',
                             style: TextStyle(
                                 fontWeight: FontWeight.w600, fontSize: 16),
                           ),
@@ -160,7 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           width: null,
                           padding: const EdgeInsets.all(8.0),
                           child: Text(
-                            'Войти как сотрудник',
+                            'Login how employee',
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 16,
