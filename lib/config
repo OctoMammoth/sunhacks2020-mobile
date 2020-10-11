@@ -1,0 +1,6 @@
+class Config {
+  static String url = "https://paradox-backend.herokuapp.com/";
+  static String name = '';
+  static String id = '';
+  static String balance = '' ;
+}
